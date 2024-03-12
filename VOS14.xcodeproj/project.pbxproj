@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32C023122BA0A70200837E15 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 32C023112BA0A70200837E15 /* RealityKitContent */; };
+		32C023142BA0A70200837E15 /* VOS14App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C023132BA0A70200837E15 /* VOS14App.swift */; };
+		32C023162BA0A70200837E15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C023152BA0A70200837E15 /* ContentView.swift */; };
+		32C023182BA0A70200837E15 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C023172BA0A70200837E15 /* ImmersiveView.swift */; };
+		32C0231A2BA0A70200837E15 /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 32C023192BA0A70200837E15 /* ImageBasedLighting.skybox */; };
+		32C0231C2BA0A70400837E15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C0231B2BA0A70400837E15 /* Assets.xcassets */; };
+		32C0231F2BA0A70400837E15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C0231E2BA0A70400837E15 /* Preview Assets.xcassets */; };
+		32C023292BA0F11B00837E15 /* audio-editor-output-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 32C023272BA0F11B00837E15 /* audio-editor-output-1.wav */; };
+		32C0232A2BA0F11B00837E15 /* audio-editor-output-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 32C023282BA0F11B00837E15 /* audio-editor-output-2.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32C0230C2BA0A70200837E15 /* VOS14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VOS14.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C023102BA0A70200837E15 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		32C023132BA0A70200837E15 /* VOS14App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VOS14App.swift; sourceTree = "<group>"; };
+		32C023152BA0A70200837E15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		32C023172BA0A70200837E15 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		32C023192BA0A70200837E15 /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
+		32C0231B2BA0A70400837E15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32C0231E2BA0A70400837E15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32C023202BA0A70400837E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32C023272BA0F11B00837E15 /* audio-editor-output-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "audio-editor-output-1.wav"; sourceTree = "<group>"; };
+		32C023282BA0F11B00837E15 /* audio-editor-output-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "audio-editor-output-2.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32C023092BA0A70200837E15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C023122BA0A70200837E15 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32C023032BA0A70100837E15 = {
+			isa = PBXGroup;
+			children = (
+				32C0230E2BA0A70200837E15 /* VOS14 */,
+				32C0230F2BA0A70200837E15 /* Packages */,
+				32C0230D2BA0A70200837E15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32C0230D2BA0A70200837E15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32C0230C2BA0A70200837E15 /* VOS14.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C0230E2BA0A70200837E15 /* VOS14 */ = {
+			isa = PBXGroup;
+			children = (
+				32C023262BA0F10E00837E15 /* Resources */,
+				32C023132BA0A70200837E15 /* VOS14App.swift */,
+				32C023152BA0A70200837E15 /* ContentView.swift */,
+				32C023172BA0A70200837E15 /* ImmersiveView.swift */,
+				32C023192BA0A70200837E15 /* ImageBasedLighting.skybox */,
+				32C0231B2BA0A70400837E15 /* Assets.xcassets */,
+				32C023202BA0A70400837E15 /* Info.plist */,
+				32C0231D2BA0A70400837E15 /* Preview Content */,
+			);
+			path = VOS14;
+			sourceTree = "<group>";
+		};
+		32C0230F2BA0A70200837E15 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				32C023102BA0A70200837E15 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		32C0231D2BA0A70400837E15 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				32C0231E2BA0A70400837E15 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32C023262BA0F10E00837E15 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32C023272BA0F11B00837E15 /* audio-editor-output-1.wav */,
+				32C023282BA0F11B00837E15 /* audio-editor-output-2.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32C0230B2BA0A70200837E15 /* VOS14 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32C023232BA0A70400837E15 /* Build configuration list for PBXNativeTarget "VOS14" */;
+			buildPhases = (
+				32C023082BA0A70200837E15 /* Sources */,
+				32C023092BA0A70200837E15 /* Frameworks */,
+				32C0230A2BA0A70200837E15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VOS14;
+			packageProductDependencies = (
+				32C023112BA0A70200837E15 /* RealityKitContent */,
+			);
+			productName = VOS14;
+			productReference = 32C0230C2BA0A70200837E15 /* VOS14.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32C023042BA0A70200837E15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					32C0230B2BA0A70200837E15 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 32C023072BA0A70200837E15 /* Build configuration list for PBXProject "VOS14" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32C023032BA0A70100837E15;
+			productRefGroup = 32C0230D2BA0A70200837E15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32C0230B2BA0A70200837E15 /* VOS14 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32C0230A2BA0A70200837E15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C0231C2BA0A70400837E15 /* Assets.xcassets in Resources */,
+				32C0232A2BA0F11B00837E15 /* audio-editor-output-2.wav in Resources */,
+				32C0231F2BA0A70400837E15 /* Preview Assets.xcassets in Resources */,
+				32C0231A2BA0A70200837E15 /* ImageBasedLighting.skybox in Resources */,
+				32C023292BA0F11B00837E15 /* audio-editor-output-1.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32C023082BA0A70200837E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C023162BA0A70200837E15 /* ContentView.swift in Sources */,
+				32C023142BA0A70200837E15 /* VOS14App.swift in Sources */,
+				32C023182BA0A70200837E15 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		32C023212BA0A70400837E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		32C023222BA0A70400837E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		32C023242BA0A70400837E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VOS14/Preview Content\"";
+				DEVELOPMENT_TEAM = T2V3R3ZLQS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vos14.app.VOS14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		32C023252BA0A70400837E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VOS14/Preview Content\"";
+				DEVELOPMENT_TEAM = T2V3R3ZLQS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vos14.app.VOS14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32C023072BA0A70200837E15 /* Build configuration list for PBXProject "VOS14" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C023212BA0A70400837E15 /* Debug */,
+				32C023222BA0A70400837E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32C023232BA0A70400837E15 /* Build configuration list for PBXNativeTarget "VOS14" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C023242BA0A70400837E15 /* Debug */,
+				32C023252BA0A70400837E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		32C023112BA0A70200837E15 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 32C023042BA0A70200837E15 /* Project object */;
+}
